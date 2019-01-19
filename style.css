@@ -1,0 +1,15 @@
+header
+{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size:30px;
+}
+
+footer
+{
+    float: right;
+    font-family: arial,helvetica;
+    font-size: 15px;
+    width: 23%;
+}

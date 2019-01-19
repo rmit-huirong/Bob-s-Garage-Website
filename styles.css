@@ -1,0 +1,219 @@
+html
+{
+    background-image: url("gif/checker.gif");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body
+{
+    background-image: url("gif/starburst.gif");
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0 auto 0 auto;
+    min-width: 600px;
+    max-width: 1200px;
+    box-shadow: 0px 0px 2px 3px yellow;
+}
+
+header
+{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 100px;
+}
+
+nav
+{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Graduate', cursive;
+}
+
+.navi
+{
+    font-size: 20px;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.navi:link, .navi:visited
+{
+    text-decoration: none;
+    color: black;
+    background-image: url("gif/starburst2.gif");
+}
+
+.navi:hover, .navi:active
+{
+    text-decoration: none;
+    background-image: none;
+    background-color: #066;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+main
+{
+    font-family: 'Oregano', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+    text-decoration: none;
+    color: black;
+}
+
+#cool
+{
+    color: red;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+#a01
+{
+    float: left;
+}
+
+.cool
+{
+    font-size: 14px;
+    width: 30%;
+    display: inline-block;
+}
+.menu
+{
+    width: 33%;
+    display: inline-block;
+}
+
+#tv
+{
+    display: inline-block;
+    font-size:0px;
+}
+
+#f01
+{
+    text-align: center;
+    font-family: arial,helvetica;
+    font-size: 12px;
+    display: inline-block;
+    width: 20%;
+}
+
+#f03
+{
+    text-align: center;
+    font-family: arial,helvetica;
+    font-size: 3px;
+    display: inline-block;
+  
+}
+
+#f04
+{
+    font-family: arial,helvetica;
+    font-size: 15px;
+    display: inline-block;
+    width: 23%;
+}
+
+#f05
+{
+    text-align: right;
+}
+
+#f02
+{
+    text-align: center;
+    display: inline-block;
+    width:55%;
+}
+
+#certificates
+{
+    width: 60%;
+    display: inline-block;
+}
+
+#x
+{
+    font-size: 14px;
+    width: 30%;
+    display: inline-block;
+}
+
+.itemImg
+{
+    float:left;
+    width:150px;
+    height:450px;
+    max-height: 450px;
+    min-height: 90px;
+    max-width: 150px;
+    min-width: 30px;
+}
+
+.item
+{
+    display:  inline-block;
+    height:  450px;
+    width: 380px;
+    font-size: 20px;  
+    text-align: left;
+    vertical-align: middle;
+}
+
+.clearBoth
+{
+    display: inline-block;
+    clear: both;
+}
+#btt
+{
+    font-family: 'Graduate', cursive;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0%;
+    text-decoration: none;
+    background-color: black;
+    color: yellow;
+    padding: 20px 10px;
+    opacity: 0.5;
+}
+
+#btt:hover
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+
+#pumps
+{
+    color: cyan;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+.titles
+{
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+#phone:invalid
+{
+    border-color: red;
+}

@@ -1,0 +1,149 @@
+/* Make HTML and body content viewable, layout to fill window */
+html,
+body
+{
+  padding:20px;
+  margin:0px;
+  background-image: url("starburst.gif");
+  box-sizing: border-box;
+  height:100%;
+}
+
+/* Give all semantic body elements uniform layout style */
+header,
+nav,
+main,
+footer,
+aside,
+section,
+article
+{
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}  
+
+/* Give each semantic body element a different color */
+header
+{
+  background-color: hsl(0,100%,97%);
+  border: 2px solid hsl(0,100%,60%);
+  text-align: center;
+}
+nav
+{
+  background-color: hsl(210,100%,97%);
+  border: 2px solid hsl(210,100%,60%);
+  font-size: 20px;
+  text-align: center;
+}
+
+main
+{
+  text-align: center;
+  font-size: 14px;
+  background-color: hsl(120,100%,97%);
+  border: 2px solid hsl(120,100%,40%);
+}
+
+#a01
+{
+  float: left;
+}
+
+.cool
+{
+  width: 30%;
+  display: inline-block;
+}
+.menu
+{
+  width: 33%;
+  display: inline-block;
+}
+
+footer
+{
+  background-color: hsl(300,100%,97%);
+  border: 2px solid hsl(300,100%,80%);
+}
+
+#tv
+{
+  display: inline-block;
+  font-size:0px;
+}
+
+#f01
+{
+  text-align: center;
+  font-family: arial,helvetica;
+  font-size: 12px;
+  display: inline-block;
+  width: 20%;
+}
+
+#f03
+{
+  text-align: center;
+  font-family: arial,helvetica;
+  font-size: 3px;
+  display: inline-block;
+  
+}
+
+#f04
+{
+  font-family: arial,helvetica;
+  font-size: 15px;
+  display: inline-block;
+  width: 23%;
+}
+
+#f05
+{
+  text-align: right;
+}
+
+#f02
+{
+  text-align: center;
+  display: inline-block;
+  width:55%;
+}
+
+#certificates
+{
+  width: 60%;
+  display: inline-block;
+}
+
+#x
+{
+  width: 30%;
+  display: inline-block;
+}
+
+aside
+{
+  background-color: hsl(180,100%,97%);
+  border: 2px solid hsl(180,100%,40%);
+}
+
+section
+{
+  background-color: hsl(30,100%,97%);
+  border: 2px solid hsl(30,100%,60%);
+}
+
+article
+{
+  background-color: hsl(270,100%,97%);
+  border: 2px solid hsl(270,100%,60%);
+}
+
+.item
+{
+  width: 33%;
+  display: inline-block; 
+}
